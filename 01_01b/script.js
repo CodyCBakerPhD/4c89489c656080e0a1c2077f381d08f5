@@ -41,8 +41,7 @@ const Card = (data) => {
             <time class="image__date" datetime="${imgData.created_at}">
             ${
               date.toLocaleString(
-                "default",
-                {year: "numeric",month: "long",day: "numeric",}
+                "default",{year: "numeric",month: "long",day: "numeric",}
               )
             }</time>
           </p>
